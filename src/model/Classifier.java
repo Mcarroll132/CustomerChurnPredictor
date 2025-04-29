@@ -1,21 +1,36 @@
+
+/**
+ * Classifier class for predicting customer churn
+ * based on frequency counts of feature values.
+ */
+
+
+
 package model;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Classifier {
-    private Map<String, Double> yesProbabilities;
-    private Map<String, Double> noProbabilities;
-    private double overallYesProbability;
-    private double overallNoProbability;
 
+public class Classifier {
+    private Map<String, Double> yesProbabilities; // Feature probabilities given "Yes"
+    private Map<String, Double> noProbabilities;  // Feature probabilities given "No"
+    private double overallYesProbability;         // Overall probability of churn "Yes"
+    private double overallNoProbability;          // Overall probability of churn "No"
+
+    /**
+     * Constructor initializes the probability maps
+     */
     public Classifier() {
         yesProbabilities = new HashMap<>();
         noProbabilities = new HashMap<>();
     }
 
-    // Train from a complete dataset (Level 2 and 3)
+    /**
+     * Train the model using the full dataset for Level 2 and 3
+     *  dataManager DataSetManager object containing the loaded dataset
+     */
     public void train(DataSetManager dataManager) {
         yesProbabilities.clear();
         noProbabilities.clear();
@@ -34,6 +49,7 @@ public class Classifier {
             "Small Business", "Enterprise"
         };
 
+        // Calculate feature probabilities for "Yes" and "No"
         for (String feature : features) {
             double yesProb = (double) dataManager.getFeatureLabelCount(feature, "Yes") / totalYes;
             double noProb = (double) dataManager.getFeatureLabelCount(feature, "No") / totalNo;
@@ -43,7 +59,10 @@ public class Classifier {
         }
     }
 
-    // Train from a training subset (Level 4 split training)
+    /**
+     * Train the model using a training subset
+     * trainingData List of training examples from the dataset
+     */
     public void train(List<String[]> trainingData) {
         yesProbabilities.clear();
         noProbabilities.clear();
@@ -51,6 +70,7 @@ public class Classifier {
         int totalYes = 0;
         int totalNo = 0;
 
+        // Count total Yes and No labels
         for (String[] row : trainingData) {
             String label = row[4].trim();
             if (label.equalsIgnoreCase("Yes")) {
@@ -67,10 +87,11 @@ public class Classifier {
         String[] features = {
             "Monthly", "Annual", "Pay-as-you-go",
             "Credit Card", "PayPal",
-            "Yes", "No", // AutoRenewal values
+            "Yes", "No", 
             "Small Business", "Enterprise"
         };
 
+        // Calculate feature probabilities from training subset
         for (String feature : features) {
             int yesFeatureCount = 0;
             int noFeatureCount = 0;
@@ -82,7 +103,8 @@ public class Classifier {
                 String customerSegment = row[3].trim();
                 String label = row[4].trim();
 
-                if (subscriptionType.equals(feature) || paymentMethod.equals(feature) || autoRenewal.equals(feature) || customerSegment.equals(feature)) {
+                if (subscriptionType.equals(feature) || paymentMethod.equals(feature)
+                        || autoRenewal.equals(feature) || customerSegment.equals(feature)) {
                     if (label.equalsIgnoreCase("Yes")) {
                         yesFeatureCount++;
                     } else if (label.equalsIgnoreCase("No")) {
@@ -99,11 +121,21 @@ public class Classifier {
         }
     }
 
-    // Predict outcome given a new input
+    /**
+     * Predicts whether a customer will churn ("Yes") or stay ("No")
+     * based on their selected features.
+     *
+     *  subscriptionType The customer's subscription type
+     *  paymentMethod The customer's payment method
+     *  autoRenewal Whether the customer has auto-renewal enabled
+     *  customerSegment The customer's business segment
+     *  "Yes" if customer will churn, "No" otherwise
+     */
     public String predict(String subscriptionType, String paymentMethod, String autoRenewal, String customerSegment) {
         double yesScore = overallYesProbability;
         double noScore = overallNoProbability;
 
+        // Multiply feature probabilities
         yesScore *= yesProbabilities.getOrDefault(subscriptionType, 1.0);
         noScore *= noProbabilities.getOrDefault(subscriptionType, 1.0);
 
@@ -116,6 +148,7 @@ public class Classifier {
         yesScore *= yesProbabilities.getOrDefault(customerSegment, 1.0);
         noScore *= noProbabilities.getOrDefault(customerSegment, 1.0);
 
+        // Predict label with higher score
         return yesScore > noScore ? "Yes" : "No";
     }
 }
