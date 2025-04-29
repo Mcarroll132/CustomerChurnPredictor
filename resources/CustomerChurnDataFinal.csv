@@ -1,0 +1,201 @@
+SubscriptionType,PaymentMethod,AutoRenewal,CustomerSegment,CustomerWillChurn
+Monthly,Credit Card,Yes,Small Business,Yes
+Monthly,PayPal,No,Enterprise,Yes
+Monthly,PayPal,Yes,Small Business,No
+Annual,Credit Card,No,Small Business,Yes
+Annual,Credit Card,Yes,Enterprise,Yes
+Annual,Credit Card,No,Small Business,Yes
+Annual,Credit Card,Yes,Small Business,No
+Pay-as-you-go,Credit Card,No,Enterprise,No
+Pay-as-you-go,Credit Card,Yes,Small Business,Yes
+Monthly,Credit Card,Yes,Small Business,Yes
+Annual,Credit Card,No,Enterprise,Yes
+Pay-as-you-go,Credit Card,Yes,Small Business,Yes
+Annual,Credit Card,No,Small Business,No
+Monthly,Credit Card,No,Enterprise,No
+Monthly,Credit Card,Yes,Small Business,Yes
+Pay-as-you-go,Credit Card,No,Small Business,Yes
+Pay-as-you-go,Credit Card,Yes,Enterprise,Yes
+Pay-as-you-go,PayPal,No,Enterprise,No
+Pay-as-you-go,Credit Card,Yes,Enterprise,No
+Pay-as-you-go,Credit Card,Yes,Small Business,Yes
+Monthly,PayPal,No,Small Business,No
+Pay-as-you-go,Credit Card,Yes,Small Business,Yes
+Annual,Credit Card,Yes,Small Business,Yes
+Pay-as-you-go,Credit Card,No,Small Business,Yes
+Annual,Credit Card,No,Small Business,No
+Annual,Credit Card,Yes,Small Business,No
+Monthly,Credit Card,No,Small Business,Yes
+Annual,PayPal,Yes,Enterprise,No
+Pay-as-you-go,PayPal,Yes,Small Business,No
+Monthly,Credit Card,Yes,Small Business,No
+Annual,Credit Card,Yes,Enterprise,No
+Annual,Credit Card,No,Enterprise,Yes
+Monthly,PayPal,Yes,Enterprise,No
+Pay-as-you-go,Credit Card,No,Small Business,No
+Annual,PayPal,No,Enterprise,Yes
+Monthly,PayPal,No,Enterprise,No
+Monthly,Credit Card,Yes,Small Business,Yes
+Monthly,Credit Card,Yes,Small Business,Yes
+Monthly,PayPal,Yes,Small Business,No
+Pay-as-you-go,PayPal,Yes,Enterprise,No
+Annual,Credit Card,No,Enterprise,No
+Pay-as-you-go,PayPal,Yes,Small Business,Yes
+Monthly,PayPal,Yes,Small Business,No
+Monthly,PayPal,Yes,Enterprise,Yes
+Monthly,PayPal,Yes,Small Business,Yes
+Monthly,PayPal,No,Enterprise,Yes
+Monthly,PayPal,Yes,Small Business,No
+Pay-as-you-go,Credit Card,Yes,Small Business,Yes
+Annual,PayPal,No,Enterprise,Yes
+Monthly,Credit Card,No,Enterprise,No
+Pay-as-you-go,PayPal,No,Small Business,Yes
+Annual,PayPal,No,Enterprise,No
+Pay-as-you-go,Credit Card,No,Small Business,Yes
+Annual,Credit Card,No,Small Business,No
+Pay-as-you-go,Credit Card,Yes,Enterprise,No
+Pay-as-you-go,PayPal,No,Small Business,Yes
+Annual,Credit Card,No,Enterprise,No
+Annual,Credit Card,Yes,Enterprise,No
+Annual,Credit Card,No,Small Business,No
+Pay-as-you-go,Credit Card,Yes,Small Business,No
+Annual,Credit Card,Yes,Enterprise,No
+Pay-as-you-go,Credit Card,Yes,Small Business,No
+Annual,Credit Card,Yes,Small Business,No
+Pay-as-you-go,PayPal,No,Small Business,Yes
+Pay-as-you-go,Credit Card,Yes,Small Business,Yes
+Monthly,Credit Card,No,Enterprise,Yes
+Pay-as-you-go,PayPal,No,Small Business,No
+Monthly,PayPal,Yes,Enterprise,Yes
+Annual,Credit Card,Yes,Small Business,No
+Pay-as-you-go,PayPal,No,Enterprise,No
+Monthly,Credit Card,Yes,Small Business,Yes
+Monthly,Credit Card,No,Small Business,No
+Monthly,Credit Card,Yes,Small Business,No
+Pay-as-you-go,Credit Card,No,Small Business,No
+Monthly,PayPal,No,Small Business,No
+Pay-as-you-go,PayPal,No,Small Business,No
+Annual,Credit Card,Yes,Small Business,No
+Annual,Credit Card,Yes,Enterprise,No
+Annual,PayPal,Yes,Small Business,Yes
+Pay-as-you-go,Credit Card,Yes,Small Business,Yes
+Monthly,Credit Card,Yes,Small Business,Yes
+Monthly,Credit Card,No,Small Business,No
+Annual,Credit Card,Yes,Enterprise,Yes
+Annual,Credit Card,No,Small Business,No
+Monthly,Credit Card,Yes,Small Business,Yes
+Pay-as-you-go,PayPal,No,Small Business,Yes
+Annual,Credit Card,No,Small Business,No
+Annual,PayPal,No,Small Business,No
+Annual,Credit Card,Yes,Small Business,Yes
+Annual,Credit Card,Yes,Small Business,No
+Pay-as-you-go,PayPal,Yes,Enterprise,Yes
+Pay-as-you-go,PayPal,Yes,Enterprise,No
+Monthly,Credit Card,Yes,Small Business,Yes
+Pay-as-you-go,PayPal,No,Small Business,Yes
+Pay-as-you-go,Credit Card,Yes,Small Business,Yes
+Annual,Credit Card,No,Small Business,No
+Monthly,Credit Card,No,Small Business,No
+Monthly,Credit Card,No,Small Business,No
+Pay-as-you-go,Credit Card,Yes,Small Business,No
+Monthly,Credit Card,Yes,Small Business,No
+Pay-as-you-go,PayPal,Yes,Small Business,No
+Monthly,Credit Card,Yes,Enterprise,No
+Annual,PayPal,No,Enterprise,No
+Annual,Credit Card,No,Small Business,No
+Pay-as-you-go,PayPal,No,Enterprise,No
+Monthly,Credit Card,No,Enterprise,Yes
+Annual,Credit Card,Yes,Small Business,No
+Monthly,Credit Card,No,Small Business,No
+Monthly,Credit Card,Yes,Enterprise,Yes
+Monthly,PayPal,No,Enterprise,Yes
+Pay-as-you-go,Credit Card,No,Small Business,Yes
+Annual,Credit Card,No,Small Business,Yes
+Monthly,Credit Card,Yes,Small Business,Yes
+Monthly,Credit Card,No,Small Business,Yes
+Pay-as-you-go,PayPal,No,Small Business,Yes
+Pay-as-you-go,Credit Card,No,Small Business,Yes
+Monthly,PayPal,Yes,Small Business,No
+Monthly,Credit Card,Yes,Small Business,Yes
+Annual,PayPal,No,Enterprise,No
+Monthly,Credit Card,No,Small Business,No
+Annual,Credit Card,No,Enterprise,Yes
+Pay-as-you-go,PayPal,Yes,Enterprise,Yes
+Annual,Credit Card,Yes,Small Business,Yes
+Annual,Credit Card,No,Enterprise,Yes
+Annual,Credit Card,No,Small Business,No
+Pay-as-you-go,PayPal,Yes,Small Business,No
+Pay-as-you-go,Credit Card,No,Enterprise,Yes
+Annual,Credit Card,Yes,Small Business,No
+Monthly,Credit Card,Yes,Small Business,No
+Pay-as-you-go,Credit Card,No,Small Business,Yes
+Monthly,PayPal,No,Enterprise,No
+Annual,Credit Card,Yes,Small Business,No
+Monthly,Credit Card,No,Enterprise,Yes
+Monthly,Credit Card,Yes,Enterprise,Yes
+Annual,PayPal,Yes,Small Business,Yes
+Pay-as-you-go,PayPal,No,Small Business,Yes
+Annual,PayPal,No,Small Business,Yes
+Monthly,PayPal,No,Enterprise,Yes
+Monthly,Credit Card,Yes,Small Business,Yes
+Monthly,PayPal,Yes,Small Business,No
+Pay-as-you-go,Credit Card,No,Enterprise,No
+Annual,Credit Card,No,Enterprise,Yes
+Annual,Credit Card,Yes,Enterprise,Yes
+Annual,Credit Card,Yes,Enterprise,No
+Annual,PayPal,No,Enterprise,No
+Monthly,Credit Card,No,Enterprise,No
+Pay-as-you-go,PayPal,No,Small Business,No
+Monthly,Credit Card,Yes,Enterprise,Yes
+Pay-as-you-go,Credit Card,No,Small Business,No
+Annual,Credit Card,Yes,Enterprise,Yes
+Pay-as-you-go,Credit Card,Yes,Small Business,Yes
+Annual,Credit Card,No,Small Business,Yes
+Pay-as-you-go,Credit Card,Yes,Enterprise,Yes
+Annual,Credit Card,Yes,Small Business,No
+Annual,PayPal,No,Small Business,No
+Pay-as-you-go,PayPal,Yes,Enterprise,No
+Monthly,PayPal,No,Small Business,No
+Monthly,Credit Card,No,Small Business,No
+Annual,Credit Card,No,Small Business,No
+Annual,Credit Card,Yes,Small Business,Yes
+Annual,PayPal,No,Small Business,Yes
+Pay-as-you-go,Credit Card,No,Enterprise,Yes
+Pay-as-you-go,PayPal,Yes,Small Business,No
+Annual,Credit Card,No,Small Business,Yes
+Annual,PayPal,Yes,Small Business,No
+Annual,Credit Card,Yes,Small Business,Yes
+Annual,Credit Card,No,Enterprise,Yes
+Pay-as-you-go,Credit Card,Yes,Small Business,No
+Monthly,PayPal,Yes,Small Business,Yes
+Annual,Credit Card,No,Small Business,Yes
+Annual,PayPal,No,Small Business,No
+Monthly,Credit Card,No,Enterprise,Yes
+Pay-as-you-go,Credit Card,No,Small Business,No
+Pay-as-you-go,PayPal,Yes,Small Business,Yes
+Annual,Credit Card,Yes,Enterprise,No
+Annual,Credit Card,No,Small Business,No
+Annual,PayPal,Yes,Small Business,No
+Annual,Credit Card,Yes,Enterprise,Yes
+Pay-as-you-go,Credit Card,No,Small Business,No
+Annual,Credit Card,Yes,Enterprise,Yes
+Annual,PayPal,Yes,Enterprise,Yes
+Pay-as-you-go,Credit Card,Yes,Small Business,Yes
+Pay-as-you-go,PayPal,No,Enterprise,Yes
+Annual,Credit Card,Yes,Enterprise,Yes
+Annual,Credit Card,No,Small Business,Yes
+Pay-as-you-go,Credit Card,No,Enterprise,Yes
+Pay-as-you-go,Credit Card,No,Small Business,Yes
+Pay-as-you-go,Credit Card,Yes,Small Business,No
+Pay-as-you-go,Credit Card,No,Enterprise,Yes
+Monthly,PayPal,Yes,Enterprise,Yes
+Pay-as-you-go,Credit Card,No,Small Business,No
+Monthly,Credit Card,No,Small Business,No
+Monthly,Credit Card,No,Small Business,Yes
+Monthly,PayPal,No,Small Business,Yes
+Annual,PayPal,No,Small Business,Yes
+Annual,PayPal,No,Small Business,No
+Annual,Credit Card,No,Small Business,No
+Monthly,Credit Card,No,Small Business,No
+Monthly,Credit Card,Yes,Small Business,No
+Monthly,PayPal,Yes,Small Business,Yes
